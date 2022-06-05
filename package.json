@@ -1,13 +1,13 @@
 {
   "name": "@rotini/eslint-config",
   "description": "rotini cli framework eslint config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "rotini team",
   "repository": "git@github.com:rotini-js/eslint-config.git",
   "homepage": "https://github.com/rotini-js/eslint-config/blob/master/README.md",
   "bugs": "https://github.com/rotini-js/eslint-config/issues",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "files": [
     ".eslintrc.js",
     "package.json",
