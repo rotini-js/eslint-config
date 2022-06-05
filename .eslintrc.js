@@ -6,24 +6,24 @@ module.exports = {
     jest: true
   },
   extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    'eslint:recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 12,
-    sourceType: "module"
+    sourceType: 'module'
   },
   plugins: [
-    "@typescript-eslint"
+    '@typescript-eslint'
   ],
   rules: {
     semi: [
-      "error",
-      "always"
+      'error',
+      'always'
     ],
-    "no-use-before-define": "off",
-    "@typescript-eslint/explicit-function-return-type": "error"
+    'no-use-before-define': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'error'
   }
 };
