@@ -1,0 +1,32 @@
+{
+  "name": "@rotini/eslint-config",
+  "description": "rotini cli framework eslint config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "rotini team",
+  "repository": "git@github.com:rotini-js/eslint-config.git",
+  "homepage": "https://github.com/rotini-js/eslint-config/blob/master/README.md",
+  "bugs": "https://github.com/rotini-js/eslint-config/issues",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "npm": "use-yarn"
+  },
+  "keywords": [
+    "rotini",
+    "cli",
+    "framework",
+    "eslint",
+    "config"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.17.0"
+  }
+}
