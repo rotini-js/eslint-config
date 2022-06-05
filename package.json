@@ -1,7 +1,7 @@
 {
   "name": "@rotini/eslint-config",
   "description": "rotini cli framework eslint config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "author": "rotini team",
   "repository": "git@github.com:rotini-js/eslint-config.git",
@@ -22,7 +22,8 @@
     "cli",
     "framework",
     "eslint",
-    "config"
+    "config",
+    "eslint-config"
   ],
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.27.0",

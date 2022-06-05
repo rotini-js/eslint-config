@@ -1,12 +1,3 @@
-const rules = {
-  semi: [
-    "error",
-    "always"
-  ],
-  "no-use-before-define": "off",
-  "@typescript-eslint/explicit-function-return-type": "error"
-}
-
 module.exports = {
   env: {
     commonjs: true,
@@ -20,9 +11,6 @@ module.exports = {
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  ignorePatterns: [
-    "**/*.js"
-  ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: 12,
@@ -31,13 +19,12 @@ module.exports = {
   plugins: [
     "@typescript-eslint"
   ],
-  overrides: [
-    {
-      files: [
-        "**/*.ts",
-      ],
-      rules
-    }
-  ],
-  rules
+  rules: {
+    semi: [
+      "error",
+      "always"
+    ],
+    "no-use-before-define": "off",
+    "@typescript-eslint/explicit-function-return-type": "error"
+  }
 };
