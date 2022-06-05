@@ -34,8 +34,7 @@ module.exports = {
   overrides: [
     {
       files: [
-        "./src/**/*.ts",
-        "./__tests__/**/*.ts"
+        "**/*.ts",
       ],
       rules
     }

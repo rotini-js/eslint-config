@@ -1,7 +1,7 @@
 {
   "name": "@rotini/eslint-config",
   "description": "rotini cli framework eslint config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "rotini team",
   "repository": "git@github.com:rotini-js/eslint-config.git",
